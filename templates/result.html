@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>{{ prediction }}</h1>
+    {% if image %}
+        <img src="data:image/png;base64,{{ image }}" alt="Result Image">
+    {% endif %}
+</body>
+</html>
